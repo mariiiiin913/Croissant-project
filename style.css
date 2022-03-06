@@ -1,5 +1,38 @@
+:root{
+--primary-color: rgb(165, 133, 1); 
+--gradients-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
 @media (min-width: 768px) {
     img {
      display:none;
     }
+}
+
+h5{
+    margin:15px auto 5px auto ;
+}
+
+body {
+background: var(--gradients-color);
+}
+a {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+   margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+a:hover{
+    color: rgb(226, 159, 43);
+}
+.homepage-link, .photo-link, .contact-link{
+    background: var(--primary-color);
+}
+.email{
+    color: rgb(179, 121, 233);
+}
+.croissant{
+    background: white;
 }
