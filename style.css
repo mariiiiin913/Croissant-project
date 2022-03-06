@@ -30,8 +30,13 @@ a:hover{
     margin: 30px auto;
 }
 .email{
-    color: rgb(179, 121, 233);
+    color: rgb(247, 192, 9);
 }
 .croissant{
     background: white;
+}
+.wiki-link{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(210, 228, 228);
 }
