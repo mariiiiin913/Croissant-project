@@ -3,12 +3,6 @@
 --gradients-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
-@media (min-width: 768px) {
-    img {
-     display:none;
-    }
-}
-
 h5{
     margin:15px auto 5px auto ;
 }
@@ -29,6 +23,11 @@ a:hover{
 }
 .homepage-link, .photo-link, .contact-link{
     background: var(--primary-color);
+}
+.img-fluid{
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
 }
 .email{
     color: rgb(179, 121, 233);
